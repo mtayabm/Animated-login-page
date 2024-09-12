@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="conatanier" id="conatanier">
+        <div class="sign-up">
+            <form action="">
+                <h1>Create Account</h1>
+                <div class="icons">
+                    <a href="#" class="icons"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#" class="icons"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" class="icons"><i class="fa-brands fa-google"></i></a>
+                    <a href="#" class="icons"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <span>or Use email for registration</span>
+                <input type="text" placeholder="Name">
+                <input type="text" placeholder="Email">
+                <input type="password" placeholder="password">
+                <button>Sign Up</button>
+            </form>
+        </div>
+        <div class="sign-in">
+            <form action="">
+                <h1>Sign In</h1>
+                <div class="icons">
+                    <a href="#" class="icons"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#" class="icons"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" class="icons"><i class="fa-brands fa-google"></i></a>
+                    <a href="#" class="icons"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <span>or Use email password</span>
+                <input type="text" placeholder="Email">
+                <input type="password" placeholder="password">
+                <a href="#">Forget Password</a>
+                <button>Sign In</button>
+            </form>
+        </div>
+        <div class="toogle-contanier">
+            <div class="toogle">
+                <div class="toogle-panel toogle-left">
+                    <h1>Welcome User!</h1>
+                    <p>If You Have Alredy Account</p>
+                    <button class="hidden" id="login">Sign In</button>
+                </div>
+                <div class="toogle-panel toogle-right">
+                    <h1>hello User!</h1>
+                    <p>If you dont have account</p>
+                    <button class="hidden" id="register">Sign Up</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
